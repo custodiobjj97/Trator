@@ -1,0 +1,20 @@
+/*Global*/
+@import "global/global.css";
+@import "global/header.css";
+
+/*main*/
+@import "main/home.css";
+@import "main/about.css";
+
+/*services*/
+@import "services.css";
+/*why-choose*/
+@import "why-choose.css";
+/*testimonial*/
+@import "testimonial.css";
+
+/*contact*/
+@import "contact.css";
+
+/*footer*/
+@import "footer.css";

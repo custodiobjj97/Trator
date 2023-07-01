@@ -1,0 +1,16 @@
+.home{
+    height: 100vh;
+    background-image: url('../../images/banner-bg.png');
+    background-position: left center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .container{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}

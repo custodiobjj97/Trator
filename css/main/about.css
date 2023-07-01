@@ -1,0 +1,47 @@
+.about{
+    padding: 100px 0;
+}
+
+.wrapper{
+    max-width: 969px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cardWrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(2, 100%);
+    gap: 50px;
+    cursor: grab;
+    scroll-snap-type: x;
+    overflow-x:auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.cardWrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.cardWrapper.grab{
+    cursor: grabbing;
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+    user-select: none;
+}
+
+.slide{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+@media (min-width: 920px) {
+    .slide{
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+    }
+}

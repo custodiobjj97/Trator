@@ -1,0 +1,35 @@
+.services{
+    padding: 100px 20px;
+}
+
+.services h2{
+    text-align: center;
+}
+
+.car-group{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center; 
+    gap: 90px;
+}
+.box-car{
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box-car:hover{
+    border: 1px solid var(--color-dark-hover);
+    
+}
+
+@media (min-width: 920px){
+    .car-group{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

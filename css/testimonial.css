@@ -1,0 +1,29 @@
+.testimonial{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.testimonial-group{
+    max-width: 989px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+}
+
+.slide-testimonial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+@media (min-width: 920px){
+    .testimonial-group{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
